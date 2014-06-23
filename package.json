@@ -1,12 +1,11 @@
 {
   "title": "Log action for [ChainyJS](http://chainy.bevry.me)",
   "name": "chainy-plugin-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chainy action that outputs the chain's data",
   "homepage": "https://github.com/chainy-plugins/log",
   "keywords": [
     "chainy-action",
-    "chainy-modifier",
     "chainy-plugin",
     "chainy-extension",
     "chainy-addon",
