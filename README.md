@@ -33,7 +33,7 @@ Chainy action that outputs the chain's data
 Optionally accepts a single object argument containing options to be forwarded onto [node's `util.inspect` method](http://nodejs.org/api/util.html#util_util_inspect_object_options)
 
 ``` javascript
-require('chainy-core').create().require('set log')
+require('chainy').create().require('set log')
 	.set('some data')
 	.log()  // "some data"
 ```
@@ -52,7 +52,7 @@ require('chainy-core').create().require('set log')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-log')`
 - Install: `npm install --save chainy-plugin-log`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-log@0.1.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-log@1.0.0`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-log')`
@@ -100,8 +100,11 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/chainy-plugins/chainy-plugin-log/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/chainy-plugins/log/commits?author=balupton)
+
+[Become a contributor!](https://github.com/chainy-plugins/chainy-plugin-log/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 
